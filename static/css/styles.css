@@ -1,0 +1,395 @@
+.personalInfo {
+    width: 53%;
+    height: 250px;
+    background-color: black;
+    color: white;
+    border-radius: 45px;
+    position: relative;
+}
+
+
+
+.driverPfpDB {
+    left: 10%;
+    top: 12%;
+    bottom: 12%;
+    height: 165px;
+    width: 165px;
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid white;
+    padding: 7px;
+}
+
+.name {
+    color: white;
+    font-size: 50px;
+    left: 43%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.statSubtext {
+    color: gray;
+    font-size: 15px;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    top: 45%;
+}
+
+.statMainText {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    top: 55%;
+}
+
+.bdayST {
+    left: 43%;
+}
+
+.bplaceST {
+    left: 63%;
+}
+
+.nationST {
+    left: 83%;
+}
+
+.flag {
+    border-radius: 15%;
+    border: 3px solid white;
+    padding: 2px;
+}
+
+.nationality {
+    height: 30px;
+    width: 50px;
+    top: 60%;
+    left: 83%;
+    position: absolute;
+}
+
+.raceStats {
+    width: 100%;
+    height: 120%;
+    position: relative;
+    border-radius: 45px;
+    background-color: black;
+    top: 200%;
+    text-align: center;
+}
+
+.racingStatsGraphic {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 20%;
+}
+
+.fastestLap {
+    left: 0%;
+}
+
+.raceStatsSubtext {
+    color: gray;
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    top: 5%;
+}
+
+.fastestLapST {
+    left: 5.5%;
+}
+
+.raceStatsMaintext {
+    color: white;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 40%;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.fastestLapMT {
+    transform: translate(-395px, 60px);
+}
+
+.polePosition {
+    left: 20%;
+}
+
+.polePositionST {
+    left: 24.5%;
+}
+
+.polePositionMT {
+    transform: translate(-195px, -30px);
+}
+
+.raceWinST {
+    left: 45.5%;
+}
+
+.raceWin {
+    left: 41.5%;
+}
+
+.raceWinMT {
+    transform: translate(0px, -118px);
+}
+
+.racingStatsGraphicS {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 25%;
+}
+
+.podiumST {
+    left: 65.5%;
+}
+
+.podium {
+    left: 63.5%;
+}
+
+.racingStatsGraphicE {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 25%;
+}
+
+.podiumMT {
+    transform: translate(196px, -205px);
+}
+
+.wdcST {
+    left: 82.5%;
+}
+
+.wdcMT {
+    transform: translate(400px, -290px);
+}
+
+.raceStatsSubtext2 {
+    color: gray;
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    top: 47%;
+}
+
+.hatrickST {
+    left: 6.5%;
+}
+
+.hatrickMT {
+    transform: translate(-400px, -250px)
+}
+
+.grandSlamST {
+    left: 24.7%;
+}
+
+.grandSlamMT {
+    transform: translate(-200px, -335px)
+}
+
+.raceStartST {
+    left: 45%;
+}
+
+.raceStartMT {
+    transform: translate(0px, -422px)
+}
+
+.dnfST {
+    left: 64%;
+}
+
+.dnfMT {
+    transform: translate(200px, -510px)
+}
+
+.seasonWinST {
+    left: 83%;
+}
+
+.seasonWinMT {
+    transform: translate(400px, -597px)
+}
+
+.raceInfo {
+    position: relative;
+    top: 240%;
+    width: 100%;
+    height: 145%;
+    background-color: black;
+    border-radius: 45px;
+}
+
+.raceInfoSubtext {
+    color: gray;
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    top: 3%;
+}
+
+.raceInfoMaintext {
+    color: white;
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-weight: bold;
+    position: absolute;
+    text-decoration: none;
+}
+
+.raceInfoRow1MT {
+    top: 19%;
+}
+
+.raceInfoRow2MT {
+    top: 50%;
+}
+
+.raceInfoRow3MT {
+    top: 82%;
+}
+
+.raceInfoRow1ST {
+    top: 1%;
+}
+
+.raceInfoRow2ST {
+    top: 33%;
+}
+
+.raceInfoRow3ST {
+    top: 65%;
+}
+
+
+.debutRace {
+    left: 5%;
+}
+
+.debutTeam {
+    left: 65%;
+}
+
+.careerPercs {
+    top: -266%;
+    left: 150%;
+    width: 30%;
+    height: 320%;
+    position: relative;
+    background-color: black;
+    border-radius: 45px;
+}
+
+.cpSubtext {
+    position: absolute;
+    color: gray;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    left: 25%;
+}
+
+.cpMaintext {
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    left: 25%;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+
+.RRMT {
+    transform: translate(0px, 50px);
+}
+
+.teamBlock {
+    background-color: black;
+    height: 300px;
+    width: 600px;
+    border-radius: 45px;
+}
+
+.RBTB {
+    top: 0%;
+    left: 0%;
+}
+
+.teamName {
+    color: white;
+
+}
+
+.driverBlock {
+    background-color: black;
+    height: 250px;
+    width: 1750px;
+    border-radius: 90px;
+    position: relative;
+}
+
+.driverPfpHP {
+    height: 180px;
+    width: height;
+    border-radius: 50%;
+    border: 7px solid white;
+    padding: 10px;
+    left: 5%;
+    top: 7%;
+    position: absolute;
+}
+
+.nameHP {
+    color: white;
+    font-size: 80px;
+    left: 30%;
+    top: 27%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+    opacity: 0%;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    opacity: 0%;
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    opacity: 0%;
+  }
+
+.bottomFiller {
+    background-color: grey;
+    height: 20px;
+    width: 1000px;
+    top: 1000px;
+    position: relative;
+}

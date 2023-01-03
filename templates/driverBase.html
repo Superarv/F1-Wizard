@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ driver }}</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+    <link rel="icon" type="image/x-icon" href="{{ favicon }}">
+</head>
+
+<body style="background-image: url('{{ teamFile }}');
+background-size: cover;">
+    <div class="personalInfo">
+        <div>
+            <img src=" {{driverPfp}} " alt="This driver may not be on the 2023 grid" class="driverPfpDB">
+        </div>
+        
+        <h2 class="name">{{ driver }}  (#{{ fds(driver, "Racing Number") }})<h2>
+        <h3 class="statSubtext bdayST">Birthday</h3>
+        <h3 class="statMainText bdayST">{{ driverBDAY }}</h3>
+        <h3 class="statSubtext bplaceST">Birthplace</h3>
+        <h3 class="statSubtext nationST">Nationality</h3>
+        <div class="container">
+        <img src=" {{flag}} " class="flag nationality">
+        <h3 class="statMainText bplaceST">{{ fds(driver, "Birthplace") }}</h3>
+            
+           
+        
+        
+
+        
+        
+    </div>
+
+    <div class="raceStats">
+        
+        <div style="text-align: center;">
+            <h3 class="raceStatsSubtext fastestLapST">Fastest Laps</h3>
+            <br>
+            <span class="raceStatsMaintext fastestLapMT">{{ fds(driver, "Fastest Laps") }}</span>
+        </div>
+
+        
+        <div style="text-align: center;">            
+            <h3 class="raceStatsSubtext polePositionST">Pole Positions</h3>
+            <br>
+            <span class="raceStatsMaintext polePositionMT">{{ fds(driver, "Poles") }}</span>
+        </div>
+        
+        
+        <div style="text-align: center;">
+            <h3 class="raceStatsSubtext raceWinST">Race Wins</h3>
+            <br>
+            <span class="raceStatsMaintext raceWinMT">{{ fds(driver, "Wins") }}</span>
+        </div>
+
+        
+        <div style="text-align: center;">
+            <h3 class="raceStatsSubtext podiumST">Podiums</h3>
+            <br>
+            <span class="raceStatsMaintext podiumMT">{{ fds(driver, "Podiums") }}</span>
+        </div>
+
+        <div style="text-align: center;">
+            <h3 class="raceStatsSubtext wdcST">Championships</h3>
+            <br>
+            <span class="raceStatsMaintext wdcMT">{{ fds(driver, "WDCs") }}</span>
+        </div>
+
+        <div style="text-align: center;">
+            <h3 class="raceStatsSubtext2 hatrickST">Hatricks</h3>
+            <br>
+            <span class="raceStatsMaintext hatrickMT">{{ fds(driver, "Hatricks") }}</span>
+        </div>
+
+        <div style="text-align: center;">
+            <h3 class="raceStatsSubtext2 grandSlamST">Grand Slams</h3>
+            <br>
+            <span class="raceStatsMaintext grandSlamMT">{{ fds(driver, "Grand Slams") }}</span>
+        </div>
+
+        <div style="text-align: center;">
+            <h3 class="raceStatsSubtext2 raceStartST">Race Starts</h3>
+            <br>
+            <span class="raceStatsMaintext raceStartMT">{{ fds(driver, "Race Entries") }}</span>
+        </div>
+
+        <div style="text-align: center;">
+            <h3 class="raceStatsSubtext2 dnfST">Retirements</h3>
+            <br>
+            <span class="raceStatsMaintext dnfMT">{{ fds(driver, "DNFs") }}</span>
+        </div>
+
+        <div style="text-align: center;">
+            <h3 class="raceStatsSubtext2 seasonWinST">Wins in Season</h3>
+            <br>
+            <span class="raceStatsMaintext seasonWinMT">{{ fds(driver, "Most Wins In Season") }}</span>
+        </div>
+
+    </div>
+
+    <div class="raceInfo">
+        <h3 class="raceInfoSubtext  raceInfoRow1ST debutRace">Debut Race</h3>
+        <a class="raceInfoMaintext raceInfoRow1MT debutRace" href="{{ lrp(fds(driver, 'Debut Race')) }}">{{ fds(driver, "Debut Race") }}</a>
+
+        <h3 class="raceInfoSubtext raceInfoRow1ST debutTeam">Debut Team</h3>
+        <a class="raceInfoMaintext raceInfoRow1MT debutTeam" href="{{lrp(fds(driver, 'Debut Team'))}}">{{ fds(driver, "Debut Team") }}</a>
+
+        <h3 class="raceInfoSubtext raceInfoRow2ST debutRace">Last Race</h3>
+        <a class="raceInfoMaintext raceInfoRow2MT debutRace" href="{{lrp(fds(driver, 'Last Race'))}}">{{ fds(driver, "Last Race") }}</a>
+
+        <h3 class="raceInfoSubtext raceInfoRow2ST debutTeam">2023 Team</h3>
+        <a class="raceInfoMaintext raceInfoRow2MT debutTeam" href="{{ lrp(fds(driver, '2023 Team')) }}">{{ fds(driver, "2023 Team") }}</a>
+
+        <h3 class="raceInfoSubtext raceInfoRow3ST debutRace">Last Win</h3>
+        <a class="raceInfoMaintext raceInfoRow3MT debutRace" href="{{ lrp(fds(driver, 'Last Win')) }}">{{ fds(driver, "Last Win") }}</a>
+
+        <h3 class="raceInfoSubtext raceInfoRow3ST debutTeam">Career Points</h3>
+        <a class="raceInfoMaintext raceInfoRow3MT debutTeam" href="{{ cpW }}">{{ fds(driver, "Career Points") }}</a>
+    </div>
+
+    
+</body>
+</html>
