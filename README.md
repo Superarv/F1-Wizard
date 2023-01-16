@@ -9,7 +9,7 @@
 ## Part One: The GUI
 ##### The GUI (Graphical User Interface), follows popular organizational and visual conventions found in many modern day applications. It builds around a beautiful, modern aesthetic. 
 
-##### For my front-end user interfaces, I used HTML (Hyper-text Markup Language) and CSS (Cascading Stylesheets). These are both very powerful languages that both server their important roles in developing any web-based application. Below, I have given a few examples of how I used these languages to create my GUI.
+##### For my front-end user interfaces, I used HTML (Hyper-text Markup Language) and CSS (Cascading Stylesheets). These are both very powerful languages that both serve their important roles in developing any web-based application. Below, I have given a few examples of how I used these languages to create my GUI.
 
 ##### In the interface, I prioritized user satisfaction by implementing rounded widgets. Here is the code for one of these widget classes:
 ```css
